@@ -208,5 +208,6 @@ python main.py
 
 ### Git Rules
 - `.env` is in `.gitignore` — never commit secrets
-- Squash trivial commits
-- Conventional commit format: `feat:`, `fix:`, `refactor:`, `chore:`
+- After completing each stage/task, create a **quality commit**
+- Commit message format: conventional commits (`feat:`, `fix:`, `refactor:`, `chore:`)
+- Squash trivial commits before pushing
